@@ -4,7 +4,7 @@ ATmega32-Arduino
 ATmega32 for Arduino IDE
 
 ********************************
- Installing DuinOS
+ Installing ATmega32
 ********************************
 0. Close the Arduino IDE (all instances).
 1. Copy the Mega32 folder to the Sketchbook \hardware folder. If one does not exist create it.
