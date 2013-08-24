@@ -16,7 +16,7 @@ mega32-1.upload.maximum_size=32000
 
 mega32-1.bootloader.low_fuses=0xE1
 mega32-1.bootloader.high_fuses=0xD9
-mega32-1.bootloader.extended_fuses=0xFD
+#mega32-1.bootloader.extended_fuses=0xFD
 
 ##############################################################
 
@@ -30,6 +30,20 @@ mega32-8.upload.maximum_size=32000
 
 mega32-8.bootloader.low_fuses=0xE4
 mega32-8.bootloader.high_fuses=0xD9
-mega32-8.bootloader.extended_fuses=0xFD
+#mega32-8.bootloader.extended_fuses=0xFD
+
+##############################################################
+
+mega32-16.name=ATmega32-External 16mhz
+mega32-16.build.mcu=atmega32
+mega32-16.build.f_cpu=16000000L
+mega32-16.build.core=arduino:arduino
+mega32-16.build.variant=mega32
+
+mega32-16.upload.maximum_size=32000
+
+mega32-16.bootloader.low_fuses=0xEF
+mega32-16.bootloader.high_fuses=0x89
+#mega32-16.bootloader.extended_fuses=0xFD
 
 ##############################################################
